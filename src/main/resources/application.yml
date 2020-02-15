@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    postgre:
+      jdbc-url: jdbc:postgresql://localhost:5432/robert
+      password: robert
+      username: postgres
+      driver-class-name: org.postgresql.Driver
+    mysql:
+      jdbc-url: jdbc:mysql://localhost:3307/robert
+      password: robert
+      username: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  main:
+    allow-bean-definition-overriding: true
