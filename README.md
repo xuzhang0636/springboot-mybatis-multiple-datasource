@@ -1,0 +1,1 @@
+# One example for springboot mybatis multiple datasource configuration
